@@ -9,7 +9,7 @@ import PopoutList from '../../../../shared/Popout/PopoutList';
 import { FormInput } from '../../../../elemental';
 import ListHeaderButton from '../ListHeaderButton';
 
-import { setFilter } from '../../actions';
+import { setFilter, setCurrentPage } from '../../actions';
 
 var ListFiltersAdd = React.createClass({
 	displayName: 'ListFiltersAdd',
