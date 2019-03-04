@@ -63,7 +63,7 @@ var ListFiltersAdd = React.createClass({
 	},
 	applyFilter (value) {
 		this.props.dispatch(setFilter(this.state.selectedField.path, value));
-		this.props.dispatch(setCurrentPage(0));
+		this.props.dispatch(setCurrentPage(1));
 		this.closePopout();
 	},
 	renderList () {
